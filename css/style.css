@@ -7,7 +7,7 @@
     margin: 0;
  }
  .onda{
-    fill: #d3d3d3;; 
+    fill: #d3d3d3; 
  }
 /*-------
    DEBUG 
@@ -208,6 +208,14 @@ section:nth-child(2n){
     height: 900px;
     background-color: green;
     border: 2px dashed;
+    text-align: center;
+}
+.last-section p{
+    text-align: center;
+    font-size: 16px; 
+}
+.last-section h2{
+    text-align: center;
 }
 .descrizione{
     font-size: 20px;
