@@ -6,9 +6,6 @@
     padding: 0;
     margin: 0;
  }
- .onda{
-    fill: #d3d3d3; 
- }
 /*-------
    DEBUG 
  --------*/ 
@@ -69,6 +66,10 @@
  /*-------
    COMMON 
  --------*/ 
+ main{
+    display: flex;
+    flex-direction: column;
+ }
 .container{
     max-width: 1200px;
     margin: auto;
@@ -81,7 +82,6 @@ p{
     font-size: 18px;
     margin-top: 30px;
 }
-
 .main-nav a{
     text-decoration: none;
     color: white;
@@ -103,6 +103,9 @@ h3{
     margin: auto;
     margin-top: 40px;
     max-width: 600px;
+}
+.background-grey{
+    background-color: #d3d3d3;
 }
  /*-------
    TYPOGRAPHY 
@@ -198,9 +201,6 @@ header{
  --------*/ 
 section{
     padding: 40px 0;
-}
-section:nth-child(2n){
-    background-color: #d3d3d3;
 }
 .row{
     display: flex;
