@@ -6,6 +6,9 @@
     padding: 0;
     margin: 0;
  }
+ .onda{
+    fill: #d3d3d3;; 
+ }
 /*-------
    DEBUG 
  --------*/ 
@@ -78,6 +81,7 @@ p{
     font-size: 18px;
     margin-top: 30px;
 }
+
 .main-nav a{
     text-decoration: none;
     color: white;
@@ -97,6 +101,10 @@ ul{
  --------*/ 
  body{
     font-family: 'Roboto', sans-serif;
+ }
+ h2{
+    font-size: 50px;
+    margin-top: 30px;
  }
 
  /*-------
@@ -150,6 +158,8 @@ header{
 .header-bottom{
     width: 900px;
     height: 400px;
+    display: flex;
+    justify-content: center;
 }
 .header2{
     margin: auto;
@@ -159,6 +169,22 @@ header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+ /*-------
+   BOTTONI 
+ --------*/
+ .bottone1{
+    margin: 20px 20px 20px 0px;
+    font-size: 20px;
+    padding: 16px 32px;
+    color: black;
+ } 
+ .bottone2{
+    margin: 20px 0 20px 0px;
+    font-size: 20px;
+    padding: 16px 32px;
+    background-color: #23272A;
+    color: white;
+ }
  /*-------
    MAIN 
  --------*/ 
@@ -170,6 +196,7 @@ section:nth-child(2n){
 }
 .row{
     display: flex;
+    padding-top: 30px;
 }
 .col-big{
     width: 60%;
@@ -181,6 +208,10 @@ section:nth-child(2n){
     height: 900px;
     background-color: green;
     border: 2px dashed;
+}
+.descrizione{
+    font-size: 20px;
+    line-height: 1.6;
 }
  /*-------
    FOOTER 
