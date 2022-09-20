@@ -6,7 +6,6 @@
     padding: 0;
     margin: 0;
  }
-
 /*-------
    DEBUG 
  --------*/ 
@@ -71,6 +70,21 @@
     max-width: 1200px;
     margin: auto;
 }
+a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+ /*-------
+   TYPOGRAPHY 
+ --------*/ 
+ body{
+    font-family: 'Roboto', sans-serif;
+ }
 
  /*-------
    HEADER 
@@ -78,19 +92,45 @@
 header{
     padding: 16px 0;
     height: 80px;
+    width: 100%;
+    background-color: #255EE9;
+    justify-content: center;
+
 }
 .header-top{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    line-height: 50px;
+    padding: 0 10px;  
+}
+.main-nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul li{
+    margin: 0 10px;
+}
+.logo{
+    width: 124px;
+    height: 34x;
+    margin-right: 16px;
+    background-color: #255EE9;
+}
+.bottone{
+    border-radius: 25px;
+    padding: 8px 12px;
+    font-size: 12px;
+}
+.login .bottone{
+    background-color: white;
 }
 .logo , .login{
-    width: 20%;
     margin: 0;
+    text-align: end;
 }
 .main-nav{
-    width: 60%;
-    text-align: center;
+    width: 80%;
 }
 .login{
     text-align: right;
