@@ -96,14 +96,6 @@ a{
 ul{
     list-style: none;
 }
-h3{
-    background-image: url(../img/stars.svg);
-    background-size: auto;
-    background-position: center;
-    margin: auto;
-    margin-top: 40px;
-    max-width: 600px;
-}
 .background-grey{
     background-color: #d3d3d3;
 }
@@ -117,7 +109,9 @@ h3{
     font-size: 50px;
     margin-top: 30px;
  }
-
+.text-center{
+    text-align: center;
+}
  /*-------
    HEADER 
  --------*/ 
@@ -153,6 +147,9 @@ header{
     font-size: 14px;
     background-color: white;
 }
+.bot i{
+    margin-right: 10px;
+}
 .login .bottone{
     background-color: white;
 }
@@ -168,7 +165,6 @@ header{
 }
 .header-bottom{
     width: 900px;
-    height: 400px;
     display: flex;
     justify-content: center;
 }
@@ -183,19 +179,32 @@ header{
  /*-------
    BOTTONI 
  --------*/
- .bottone1{
+ .button-light{
     margin: 20px 20px 20px 0px;
     font-size: 20px;
     padding: 16px 32px;
     color: black;
  } 
- .bottone2{
+ .button-dark{
     margin: 20px 0 20px 0px;
     font-size: 20px;
     padding: 16px 32px;
     background-color: #23272A;
     color: white;
  }
+ .button-header{
+    padding: 7px 16px;
+    font-size: 14px;
+    margin: 0;
+ }
+ .button-blue{
+    margin: 20px 20px 20px 0px;
+    font-size: 20px;
+    padding: 16px 32px;
+    color: white;
+    background-color: #7289DA;
+    display: inline-block;
+ } 
  /*-------
    MAIN 
  --------*/ 
@@ -220,6 +229,14 @@ section{
 }
 .last-section{
     text-align: center;
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 600px;
+    padding: 50px 0;
 }
 .last-section p{
     text-align: center;
@@ -231,6 +248,10 @@ section{
 .descrizione{
     font-size: 20px;
     line-height: 1.6;
+}
+.last-section h3{
+    font-size: 32px;
+    margin-bottom: 40px;
 }
  /*-------
    FOOTER 
