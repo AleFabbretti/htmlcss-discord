@@ -96,6 +96,14 @@ a{
 ul{
     list-style: none;
 }
+h3{
+    background-image: url(../img/stars.svg);
+    background-size: auto;
+    background-position: center;
+    margin: auto;
+    margin-top: 40px;
+    max-width: 600px;
+}
  /*-------
    TYPOGRAPHY 
  --------*/ 
@@ -208,6 +216,9 @@ section:nth-child(2n){
     height: 900px;
     background-color: green;
     border: 2px dashed;
+    text-align: center;
+}
+.last-section{
     text-align: center;
 }
 .last-section p{
