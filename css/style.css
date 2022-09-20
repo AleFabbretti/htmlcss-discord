@@ -70,11 +70,24 @@
     max-width: 1200px;
     margin: auto;
 }
-a{
+h1{
+    font-size: 56px;
+    margin-top: 60px;
+}
+p{
+    font-size: 18px;
+    margin-top: 30px;
+}
+.main-nav a{
     text-decoration: none;
     color: white;
     margin: 10px;
     padding: 10px;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 500;
 }
 ul{
     list-style: none;
@@ -91,7 +104,7 @@ ul{
  --------*/ 
 header{
     padding: 16px 0;
-    height: 80px;
+    height: 100%;
     width: 100%;
     background-color: #255EE9;
     justify-content: center;
@@ -115,12 +128,12 @@ header{
     width: 124px;
     height: 34x;
     margin-right: 16px;
-    background-color: #255EE9;
 }
-.bottone{
-    border-radius: 25px;
-    padding: 8px 12px;
-    font-size: 12px;
+.bot{
+    border-radius: 40px;
+    padding: 7px 16px;
+    font-size: 14px;
+    background-color: white;
 }
 .login .bottone{
     background-color: white;
@@ -138,6 +151,14 @@ header{
 .header-bottom{
     width: 900px;
     height: 400px;
+}
+.header2{
+    margin: auto;
+    text-align: center;
+    max-width: 900px;
+    height: 400px;
+    color: black;
+    margin-top: 120px;
 }
  /*-------
    MAIN 
