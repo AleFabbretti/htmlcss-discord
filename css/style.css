@@ -1,0 +1,159 @@
+/*-------
+   RESET 
+ --------*/
+ *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+ }
+
+/*-------
+   DEBUG 
+ --------*/ 
+.debug header{
+    background-color: #add8e6;
+ }
+.debug .header-top{
+    background-color: #daa520;
+}
+.debug .header-top > *{
+    border: 2px dashed;
+}
+.debug .header2{
+    background-color: #00008b;
+    padding: 50px 0;
+}
+.debug .header-bottom{
+    background-color: #ee82ee;
+    border: 2px dashed;
+}
+.debug .row{
+    height: 400px;
+}
+.debug .col-big{
+    background-color: #1e90ff;
+    border: 2px dashed;
+}
+.debug .col-small{
+    background-color: #ffc0cb;
+    border: 2px dashed;
+}
+.debug .green{
+    background-color: #228b22;
+    border: 2px dashed;
+}
+.debug .colonna1{
+    background-color: #f08080;
+    border: 2px dashed;
+}
+.debug .colonna2{
+    background-color: #20b2aa;
+    border: 2px dashed white;
+}
+.debug footer{
+    background-color: #23272a;
+}
+.debug .footer-bottom{
+    background-color: #7fffd4;
+}
+.debug .logo-footer{
+    background-color: #ffb6c1;
+    border: 2px dashed;
+}
+.debug .bottone{
+    background-color: #ffb6c1;
+    border: 2px dashed;
+}
+ /*-------
+   COMMON 
+ --------*/ 
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+ /*-------
+   HEADER 
+ --------*/ 
+header{
+    padding: 16px 0;
+    height: 80px;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    line-height: 50px;
+}
+.logo , .login{
+    width: 20%;
+    margin: 0;
+}
+.main-nav{
+    width: 60%;
+    text-align: center;
+}
+.login{
+    text-align: right;
+}
+.header-bottom{
+    width: 900px;
+    height: 400px;
+}
+ /*-------
+   MAIN 
+ --------*/ 
+section{
+    padding: 40px 0;
+}
+section:nth-child(2n){
+    background-color: #d3d3d3;
+}
+.row{
+    display: flex;
+}
+.col-big{
+    width: 60%;
+}
+.col-small{
+    width: 40%;
+}
+.debug section:last-child .container {
+    height: 900px;
+    background-color: green;
+    border: 2px dashed;
+}
+ /*-------
+   FOOTER 
+ --------*/ 
+ .footer-top{
+    display: flex;
+    padding: 10px 0 30px 0;
+ }
+ .colonna1{
+    height: 500px;
+    width: calc(100% / 3);
+ }
+ .colonna2{
+    height: 500px;
+    width: calc(100% / 6);
+ }
+ .footer-bottom{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .logo-footer{
+    width: 50px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 7px;
+ }
+ .bottone{
+    width: 70px;
+    height: 35px;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 7px;
+ }
